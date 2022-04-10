@@ -69,9 +69,9 @@ class Homepage extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          const Categories(),
+          const Submenu(teks: 'Categories'),
           const CategoriesButton(),
-          const FeaturedNFTs(),
+          const Submenu(teks: 'Featured NFTs'),
           SizedBox(
               height: 460,
               child: ListView(
@@ -94,7 +94,7 @@ class Homepage extends StatelessWidget {
                       gambar: 'assets/image7.png'),
                 ],
               )),
-          const FeaturedCreators(),
+          const Submenu(teks: 'Featured Creators'),
           const Creators(),
         ],
       ),

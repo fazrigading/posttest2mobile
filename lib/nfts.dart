@@ -10,8 +10,7 @@ class CurrentPrice extends StatelessWidget {
         style: TextStyle(
             color: Color.fromRGBO(132, 132, 132, 1),
             fontWeight: FontWeight.w500,
-            fontSize: 14,
-            fontFamily: 'Manrope'));
+            fontSize: 14));
   }
 }
 
@@ -49,8 +48,7 @@ class NFT extends StatelessWidget {
                           style: const TextStyle(
                               color: Color.fromRGBO(132, 132, 132, 1),
                               fontWeight: FontWeight.w500,
-                              fontSize: 14,
-                              fontFamily: 'Manrope')),
+                              fontSize: 14)),
                       const CurrentPrice()
                     ],
                   )),
@@ -63,14 +61,12 @@ class NFT extends StatelessWidget {
                           style: const TextStyle(
                               color: Color.fromRGBO(18, 18, 18, 1),
                               fontWeight: FontWeight.w700,
-                              fontSize: 18,
-                              fontFamily: 'Manrope')),
+                              fontSize: 18)),
                       Text(harga + ' ETH',
                           style: const TextStyle(
                               color: Color.fromRGBO(18, 18, 18, 1),
                               fontWeight: FontWeight.w700,
-                              fontSize: 18,
-                              fontFamily: 'Manrope')),
+                              fontSize: 18)),
                     ],
                   )),
             ],
